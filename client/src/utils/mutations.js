@@ -50,10 +50,13 @@ export const SAVE_BOOK = gql`
 
 `
 
-export const DELETE_BOOK = gql`
-  mutation deleteBook($input:BookInput){
-    deleteBook(input:$input){
-      username
+export const REMOVE_BOOK = gql`
+  mutation deleteBook($bookId:ID){
+    deleteBook(bookId: $bookId){
+      _id
+      savedBooks{
+        title
+      }
 
     }
   }
