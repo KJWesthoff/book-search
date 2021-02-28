@@ -32,7 +32,7 @@
   ![](BookReview.png)
 
   ## Installation Instructions:
-  deployed on heroku here: https://vast-sierra-64853.herokuapp.com/
+  deployed on heroku here: https://afternoon-mountain-57255.herokuapp.com/
   ## How To Use
   Login or Sign up to save your favorite books
   ## How to Contribute:
